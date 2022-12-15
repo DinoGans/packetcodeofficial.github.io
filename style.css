@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::selection {
+    background:  #FFC0CB;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:  #FFC0CB;
+}
+
+.wrapper {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+i {
+    font-size: 7.5em;
+    color: #FFC0CB;
+    border: 5px solid transparent;
+    outline: 3px solid #FFC0CB;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 3em;
+    color: #FFC0CB;
+    margin: 15px 0;
+}
+
+.btn-group {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+button {
+    position: absolute;
+    width: 250px;
+    height: inherit;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid #FFC0CB;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+button:nth-child(1) {
+    margin-left: -250px;
+    margin-right: 100px;
+    background: #FFC0CB;
+}
+
+button:nth-child(2) {
+    margin-right: -250px;
+    margin-left: 100px;
+    color: #FFC0CB;
+}
